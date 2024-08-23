@@ -12,6 +12,12 @@ Registers a new listener function (fn) for a specified event (eventName). Throws
 <br>
  Removes a specified listener function from an event. Throws an error if fn is not a function.
 </li>
+<li>
+<b>on(eventName, fn) </b> 
+<br>
+ Registers a callback to the master object
+</li>
+
 
 <li>
 <b>removeAllEventListeners(eventName)</b> <br>
